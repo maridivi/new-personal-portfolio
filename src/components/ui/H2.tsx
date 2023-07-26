@@ -1,32 +1,31 @@
 import cn from "@/utils/cn";
 
-export default function P1({
+export default function H2({
   children,
   center,
   noWrap,
-  bold,
+
   className,
-  ...props
 }: {
-  children?: React.ReactNode;
+  children: React.ReactNode;
   center?: boolean;
   noWrap?: boolean;
-  bold?: boolean;
-  className?: string;
-} & React.HTMLAttributes<HTMLParagraphElement>) {
-  return (
-    <p
-      className={cn(
-        "text-base font-extralight max-w-full select-none",
-        noWrap && "truncate",
-        bold && "font-bold",
-        center && "text-center",
 
+  className?: string;
+} & React.DetailedHTMLProps<
+  React.HTMLAttributes<HTMLHeadingElement>,
+  HTMLHeadingElement
+>) {
+  return (
+    <h2
+      className={cn(
+        "font-semibold select-none",
+        noWrap && "truncate",
+        center && "text-center",
         className
       )}
-      {...props}
     >
       {children}
-    </p>
+    </h2>
   );
 }
