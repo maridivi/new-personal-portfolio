@@ -14,7 +14,7 @@ export default function Grid({
       className={cn(
         "grid grid-cols-1",
         "lg:grid-flow-row lg:auto-rows-max",
-        "gap-8",
+        "gap-2",
         className
       )}
     >

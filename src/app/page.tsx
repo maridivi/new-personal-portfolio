@@ -1,12 +1,18 @@
 import About from "@/components/About";
+import Cozier from "@/components/Cozier";
 import LofiCafe from "@/components/LofiCafe";
 import Grid from "@/components/ui/Grid";
+import Stack from "@/components/ui/Stack";
 
 export default function Home() {
   return (
-    <Grid>
+    <Stack vertical className="gap-12">
       <About />
-      <LofiCafe />
-    </Grid>
+
+      <Grid>
+        <LofiCafe />
+        <Cozier />
+      </Grid>
+    </Stack>
   );
 }
