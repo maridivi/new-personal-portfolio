@@ -14,8 +14,9 @@ export default function Section({
   return (
     <section
       className={cn(
-        "w-full py-6 px-6 mx-auto overflow-hidden max-w-screen-sm ",
-        className
+        "w-full py-6 px-6 mx-auto overflow-hidden max-w-screen-sm",
+        className,
+        " lg:max-w-screen-lg"
       )}
     >
       {children}

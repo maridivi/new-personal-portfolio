@@ -12,7 +12,7 @@ export default function Grid({
   return (
     <div
       className={cn(
-        "grid grid-cols-1",
+        "grid grid-cols-1 lg:grid-cols-2",
         "lg:grid-flow-row lg:auto-rows-max",
         "gap-2",
         className
