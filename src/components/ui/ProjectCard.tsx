@@ -25,9 +25,9 @@ export default function ProjectCard(props: ProjectCardProps) {
       <Image
         alt={alt}
         src={src}
-        width={200}
-        height={100}
-        className="rounded-md"
+        width={250}
+        height={50}
+        className="rounded-md shadow-md"
       />
     </Card>
   );
