@@ -14,10 +14,11 @@ export default function Home() {
 
       <Grid>
         <LofiCafe />
+        <Readingful />
+
         <Cozier />
         <Pomozone />
         <MovieGenerator />
-        <Readingful />
       </Grid>
     </Stack>
   );
