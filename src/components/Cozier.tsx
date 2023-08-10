@@ -3,6 +3,7 @@ import ProjectCard from "./ui/ProjectCard";
 export default function Cozier() {
   return (
     <ProjectCard
+      repo
       alt="cozier"
       src="/images/cozier.png"
       title="cozier"
