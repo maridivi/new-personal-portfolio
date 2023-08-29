@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import Section from "@/components/ui/Section";
 import Stack from "@/components/ui/Stack";
 import { inter } from "@/utils/fonts";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,10 +22,11 @@ export default function RootLayout({
       <body className={inter.className}>
         <Section>
           <Stack vertical className="gap-16">
-            <Navbar />
+            {/* <Navbar /> */}
             {children}
           </Stack>
         </Section>
+        <Footer />
       </body>
     </html>
   );

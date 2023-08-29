@@ -5,21 +5,20 @@ import MovieGenerator from "@/components/MovieGenerator";
 import Pomozone from "@/components/Pomozone";
 import Readingful from "@/components/Readingful";
 import Grid from "@/components/ui/Grid";
+
 import Stack from "@/components/ui/Stack";
 
 export default function Home() {
   return (
-    <Stack vertical className="gap-12 ">
+    <Grid className="gap-6">
       <About />
 
-      <Grid>
-        <LofiCafe />
-        <Readingful />
+      <LofiCafe />
+      <Readingful />
 
-        <Cozier />
-        <Pomozone />
-        <MovieGenerator />
-      </Grid>
-    </Stack>
+      <Cozier />
+      <Pomozone />
+      <MovieGenerator />
+    </Grid>
   );
 }
