@@ -39,13 +39,16 @@ export default function ProjectCard(props: ProjectCardProps) {
         </Stack>
       </Stack>
 
-      <Image
-        alt={alt}
-        src={src}
-        width={250}
-        height={50}
-        className="rounded-md shadow-md"
-      />
+      <div className=" relative w-[200px] h-[200px] sm:w-[200px] sm:h-[200px] overflow-hidden shrink-0 shadow-xl rounded-lg ">
+        <Image
+          alt={alt}
+          src={src}
+          // width={250}
+          // height={50}
+          className="shrink-0 object-cover min-h-0  "
+          fill
+        />
+      </div>
     </Card>
   );
 }
