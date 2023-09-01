@@ -9,7 +9,7 @@ export default function Footer() {
   };
 
   return (
-    <Stack vertical className="items-center  max-w-xl w-full  mx-auto p-4">
+    <div className="flex justify-center max-w-xl w-full mx-auto bottom-0 min-h-0 overflow-hidden">
       <h5 className="text-xs text-gray-500">
         © {getYear()} Created by
         <Link
@@ -21,6 +21,6 @@ export default function Footer() {
           Marianna Di Vito
         </Link>
       </h5>
-    </Stack>
+    </div>
   );
 }
