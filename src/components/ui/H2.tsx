@@ -19,7 +19,7 @@ export default function H2({
   return (
     <h2
       className={cn(
-        "font-semibold select-none",
+        "font-semibold",
         noWrap && "truncate",
         center && "text-center",
         className

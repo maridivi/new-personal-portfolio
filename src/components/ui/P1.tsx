@@ -17,7 +17,7 @@ export default function P1({
   return (
     <p
       className={cn(
-        "text-base font-extralight max-w-full select-none",
+        "text-base font-extralight max-w-full",
         noWrap && "truncate",
         bold && "font-bold",
         center && "text-center",

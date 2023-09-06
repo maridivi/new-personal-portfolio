@@ -17,7 +17,7 @@ export default function H1({
   return (
     <h1
       className={cn(
-        "text-2xl select-none",
+        "text-xl",
         "text-neutral-500",
         lora.className,
         noWrap && "truncate",
