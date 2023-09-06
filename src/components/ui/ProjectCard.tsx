@@ -44,7 +44,7 @@ export default function ProjectCard(props: ProjectCardProps) {
             techList.map((item, key) => {
               return (
                 <span
-                  className="bg-neutral-200 text-neutral-500 py-1 px-2 rounded text-sm shrink-0 basis-22"
+                  className="bg-neutral-300 text-neutral-600 py-1 px-2 rounded text-sm shrink-0 basis-22"
                   key={key}
                 >
                   {item}
