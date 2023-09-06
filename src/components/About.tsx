@@ -6,7 +6,7 @@ import Stack from "./ui/Stack";
 
 export default function About() {
   return (
-    <Stack className="flex items-center">
+    <Stack className="items-center gap-8">
       <Image
         src="/images/avatar.jpeg"
         height={75}
@@ -16,8 +16,8 @@ export default function About() {
       />
       <Stack vertical>
         <H1>
-          Hi there! I'm <strong>Marianna</strong>, a self-taught web developer
-          with a love for building nice apps and websites.
+          I'm <strong>Marianna</strong>, a self-taught front-end web developer
+          with a love for building nice apps & websites.
         </H1>
         <Stack>
           <ButtonA href="https://github.com/maridivi">

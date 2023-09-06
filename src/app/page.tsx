@@ -12,23 +12,26 @@ import Head from "./head";
 import Bio from "@/components/Bio";
 import CTA from "@/components/CTA";
 import Contact from "@/components/Contact";
+import RecentWork from "@/components/RecentWork";
 
 export default function Home() {
   return (
     <>
       <Head />
-      <main className="min-h-screen mx-auto w-full max-w-screen-sm px-8 md:max-w-screen-md lg:max-w-screen-lg overflow-hidden  flex flex-col pt-12 pb-6 gap-12">
+      <main className=" min-h-screen mx-auto w-full max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg overflow-hidden  flex flex-col pt-12 pb-6 gap-12">
         <Grid className="gap-6">
           <About />
           <Bio />
 
           <LofiCafe />
 
-          <Readingful />
-
-          <Cozier />
           <Pomozone />
           <MovieGenerator />
+          <RecentWork />
+
+          <Cozier />
+          <Readingful />
+
           <CTA />
           <Contact />
         </Grid>

@@ -7,7 +7,7 @@ import Contact from "./Contact";
 
 export default function CTA() {
   return (
-    <Stack vertical>
+    <Stack className="items-center px-4">
       <P1 className={cn(lora.className, "text-lg", "text-neutral-500")}>
         I am excited to continue learning and growing as a developer, and hope
         to find opportunities where I can use my skills to make a meaningful
