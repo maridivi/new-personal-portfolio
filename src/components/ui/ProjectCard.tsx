@@ -13,28 +13,29 @@ export type ProjectCardProps = {
   description?: string;
   alt: string;
   src: string;
-  repo?: boolean;
+  repo?: string;
+  projectLink: string;
 };
 
 export default function ProjectCard(props: ProjectCardProps) {
-  const { title, description, alt, src, repo } = props;
+  const { title, description, alt, src, repo, projectLink } = props;
   return (
     <Card>
       <Stack vertical>
         <H3 className="font-mono uppercase">{title}</H3>
         <P1>{description}</P1>
         <Stack>
-          <Link href="">
+          <a href={projectLink}>
             <Button tooltipContent="View project">
               <RxExternalLink size={24} />
             </Button>
-          </Link>
+          </a>
           {repo && (
-            <Link href="">
+            <a href={repo}>
               <Button tooltipContent="View repo">
                 <AiFillGithub size={24} />
               </Button>
-            </Link>
+            </a>
           )}
         </Stack>
       </Stack>

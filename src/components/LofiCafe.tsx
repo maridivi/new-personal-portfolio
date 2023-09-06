@@ -9,6 +9,7 @@ export default function LofiCafe() {
           made it together with Fabrizio."
       alt="lofi-cafe"
       src="/images/lofi.png"
+      projectLink="https://www.lofi.cafe/"
     />
   );
 }
