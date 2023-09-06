@@ -9,6 +9,7 @@ export default function Cozier() {
       src="/images/cozier.png"
       title="cozier"
       description="An e-commerce website showing products fetched from an Airtable base."
+      techList={["Nextjs"]}
     />
   );
 }

@@ -15,10 +15,11 @@ export type ProjectCardProps = {
   src: string;
   repo?: string;
   projectLink: string;
+  techList?: string[];
 };
 
 export default function ProjectCard(props: ProjectCardProps) {
-  const { title, description, alt, src, repo, projectLink } = props;
+  const { title, description, alt, src, repo, projectLink, techList } = props;
   return (
     <Card>
       <Stack vertical>
@@ -37,6 +38,19 @@ export default function ProjectCard(props: ProjectCardProps) {
               </Button>
             </a>
           )}
+        </Stack>
+        <Stack>
+          {techList &&
+            techList.map((item, key) => {
+              return (
+                <span
+                  className="bg-neutral-200 text-neutral-500 py-1 px-2 rounded text-sm shrink-0 basis-22"
+                  key={key}
+                >
+                  {item}
+                </span>
+              );
+            })}
         </Stack>
       </Stack>
 

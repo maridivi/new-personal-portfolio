@@ -20,10 +20,6 @@ export default function About() {
           with a love for building nice apps and websites.
         </H1>
         <Stack>
-          <ButtonA href="https://twitter.com/maridivi89">
-            <AiOutlineTwitter size={24} />
-            Twitter
-          </ButtonA>
           <ButtonA href="https://github.com/maridivi">
             <AiFillGithub size={24} />
             Github

@@ -10,6 +10,8 @@ import Grid from "@/components/ui/Grid";
 import Stack from "@/components/ui/Stack";
 import Head from "./head";
 import Bio from "@/components/Bio";
+import CTA from "@/components/CTA";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -27,6 +29,8 @@ export default function Home() {
           <Cozier />
           <Pomozone />
           <MovieGenerator />
+          <CTA />
+          <Contact />
         </Grid>
         <Footer />
       </main>

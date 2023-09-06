@@ -7,7 +7,8 @@ export default function Readingful() {
       title="readingful"
       alt="readingful"
       src="/images/readingful.png"
-      description="An AI-powered website to get book suggestions based on user's preferences"
+      description="An AI-powered website to get book suggestions based on user's preferences."
+      techList={["Nextjs", "OpenAI"]}
     />
   );
 }
