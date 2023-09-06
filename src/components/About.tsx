@@ -1,9 +1,8 @@
 import Image from "next/image";
+import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
+import ButtonA from "./ui/ButtonA";
 import H1 from "./ui/H1";
 import Stack from "./ui/Stack";
-import { AiOutlineTwitter, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import Link from "next/link";
-import CustomLink from "./ui/CustomLink";
 
 export default function About() {
   return (
@@ -21,18 +20,18 @@ export default function About() {
           with a love for building nice apps and websites.
         </H1>
         <Stack>
-          <CustomLink href="https://twitter.com/maridivi89">
+          <ButtonA href="https://twitter.com/maridivi89">
             <AiOutlineTwitter size={24} />
             Twitter
-          </CustomLink>
-          <CustomLink href="https://github.com/maridivi">
+          </ButtonA>
+          <ButtonA href="https://github.com/maridivi">
             <AiFillGithub size={24} />
             Github
-          </CustomLink>
-          <CustomLink href="https://www.linkedin.com/in/marianna-di-vito-b4178676/">
+          </ButtonA>
+          <ButtonA href="https://www.linkedin.com/in/marianna-di-vito-b4178676/">
             <AiFillLinkedin size={24} />
             Linkedin
-          </CustomLink>
+          </ButtonA>
         </Stack>
       </Stack>
     </Stack>

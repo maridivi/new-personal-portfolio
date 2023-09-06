@@ -30,3 +30,7 @@ body {
 .debug {
   border: 1px solid red;
 }
+
+strong {
+  font-weight: 700;
+}
