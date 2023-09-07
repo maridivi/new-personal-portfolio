@@ -9,9 +9,8 @@ export default function Bio() {
     <Stack className="items-center px-5 py-6">
       <P1 className={cn(lora.className, "text-lg", "text-neutral-500")}>
         After 5 years working as a dentist, I decided to pursue my interest in
-        web development and began teaching myself to code.
-        <br></br>
-        Through online courses and hands-on projects, I became comfortable with{" "}
+        web development and began teaching myself to code. Through online
+        courses and hands-on projects, I became proficient in{" "}
         <strong>HTML, CSS, Javascript, and React</strong>.
       </P1>
     </Stack>

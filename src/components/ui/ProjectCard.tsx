@@ -22,7 +22,7 @@ export default function ProjectCard(props: ProjectCardProps) {
   const { title, description, alt, src, repo, projectLink, techList } = props;
   return (
     <Card>
-      <Stack vertical>
+      <Stack vertical className=" items-stretch justify-evenly h-full">
         <H3 className="font-mono uppercase">{title}</H3>
         <P1>{description}</P1>
         <Stack>

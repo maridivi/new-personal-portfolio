@@ -14,7 +14,7 @@ export default function Card(props: CardProps) {
   return (
     <div
       className={cn(
-        "min-w-full rounded-lg overflow-hidden p-5",
+        "min-w-full rounded-lg overflow-hidden p-5 h-full",
         "bg-neutral-100 hover:bg-neutral-200 dark:bg-gray-750 dark:border dark:border-[rgba(255,255,255,0.08)]",
 
         className
