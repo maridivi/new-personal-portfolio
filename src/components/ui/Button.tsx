@@ -27,7 +27,7 @@ export default function Button({
   if (!tooltipContent) {
     // If tooltipContent is not provided, render the button without the Tooltip
     return (
-      <div className="rounded-md bg-violet-100 p-2 text-violet-500">
+      <div className="rounded-md bg-violet-100 p-2 text-violet-500 ">
         <button onClick={onClick} className={cn(className, "flex gap-1")}>
           {children}
         </button>

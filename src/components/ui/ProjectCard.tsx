@@ -5,7 +5,7 @@ import H3 from "./H3";
 import P1 from "./P1";
 import Stack from "./Stack";
 import Image from "next/image";
-import Link from "next/link";
+
 import Button from "./Button";
 
 export type ProjectCardProps = {
@@ -26,13 +26,23 @@ export default function ProjectCard(props: ProjectCardProps) {
         <H3 className="font-mono uppercase">{title}</H3>
         <P1>{description}</P1>
         <Stack>
-          <a href={projectLink}>
+          <a
+            href={projectLink}
+            target="_blank"
+            rel="noreferrer"
+            className="hover-animation"
+          >
             <Button tooltipContent="View project">
               <RxExternalLink size={24} />
             </Button>
           </a>
           {repo && (
-            <a href={repo}>
+            <a
+              href={repo}
+              target="_blank"
+              rel="noreferrer"
+              className="hover-animation"
+            >
               <Button tooltipContent="View repo">
                 <AiFillGithub size={24} />
               </Button>

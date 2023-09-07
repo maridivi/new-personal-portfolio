@@ -27,6 +27,12 @@ body {
   background-color: white;
 }
 
+@layer utilities {
+  .hover-animation {
+    @apply transition-transform hover:opacity-60 hover:-translate-y-px;
+  }
+}
+
 .debug {
   border: 1px solid red;
 }
