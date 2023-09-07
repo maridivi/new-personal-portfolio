@@ -7,7 +7,6 @@ import Pomozone from "@/components/Pomozone";
 import Readingful from "@/components/Readingful";
 import Grid from "@/components/ui/Grid";
 
-import Stack from "@/components/ui/Stack";
 import Head from "./head";
 import Bio from "@/components/Bio";
 import CTA from "@/components/CTA";

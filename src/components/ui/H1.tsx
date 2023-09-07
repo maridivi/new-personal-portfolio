@@ -18,7 +18,8 @@ export default function H1({
     <h1
       className={cn(
         "text-xl",
-        "text-neutral-500",
+
+        "text-neutral-600",
         lora.className,
         noWrap && "truncate",
         center && "text-center",

@@ -7,7 +7,7 @@ export default function RecentWork() {
   return (
     <Stack className="items-center px-4">
       <P1 className={cn(lora.className, "text-neutral-500 text-lg")}>
-        Recently, I've been getting comfortable with <strong>Next.js 13</strong>{" "}
+        Recently, I've been getting comfortable with <strong>Next.js 13</strong>
         , especially when it comes to mastering the <strong>App Router</strong>.
         <br></br>
         <br></br>

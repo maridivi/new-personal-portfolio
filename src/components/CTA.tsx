@@ -3,7 +3,6 @@ import cn from "@/utils/cn";
 import P1 from "./ui/P1";
 import Stack from "./ui/Stack";
 import { lora } from "@/utils/fonts";
-import Contact from "./Contact";
 
 export default function CTA() {
   return (

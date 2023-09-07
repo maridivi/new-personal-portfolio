@@ -23,7 +23,7 @@ export default function ProjectCard(props: ProjectCardProps) {
   return (
     <Card>
       <Stack vertical className=" items-stretch justify-evenly h-full">
-        <H3 className="font-mono uppercase">{title}</H3>
+        <H3 className="font-mono uppercase tracking-wider">{title}</H3>
         <P1>{description}</P1>
         <Stack>
           <a
