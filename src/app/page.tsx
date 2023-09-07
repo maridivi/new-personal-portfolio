@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <Head />
-      <main className=" min-h-screen mx-auto w-full max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg overflow-hidden  flex flex-col pt-12 pb-6 gap-12">
+      <main className="px-5 min-h-screen mx-auto w-full max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg overflow-hidden  flex flex-col pt-12 pb-6 gap-12">
         <Grid className="gap-6">
           <About />
           <Bio />
