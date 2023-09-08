@@ -3,6 +3,7 @@ import cn from "@/utils/cn";
 import P1 from "./ui/P1";
 import Stack from "./ui/Stack";
 import { lora } from "@/utils/fonts";
+import H2 from "./ui/H2";
 
 export default function Bio() {
   return (

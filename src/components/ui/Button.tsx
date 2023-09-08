@@ -17,17 +17,18 @@ export default function Button({
   tooltipContent,
   isFavorite,
   className,
+  ...rest
 }: {
   onClick?: () => void;
   children?: ReactNode;
   tooltipContent?: string;
   isFavorite?: boolean;
   className?: string;
-}) {
+} & React.HTMLAttributes<HTMLButtonElement>) {
   if (!tooltipContent) {
     // If tooltipContent is not provided, render the button without the Tooltip
     return (
-      <div className="rounded-md bg-violet-100 p-2 text-violet-500 ">
+      <div className="rounded-md bg-violet-100 p-2 text-violet-600 ">
         <button onClick={onClick} className={cn(className, "flex gap-1")}>
           {children}
         </button>
@@ -45,6 +46,7 @@ export default function Button({
               isFavorite ? "text-beige-500" : "text-gray-500",
               className
             )}
+            {...rest}
           >
             {children}
           </button>

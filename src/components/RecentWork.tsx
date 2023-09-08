@@ -2,6 +2,7 @@ import cn from "@/utils/cn";
 import P1 from "./ui/P1";
 import { lora } from "@/utils/fonts";
 import Stack from "./ui/Stack";
+import H2 from "./ui/H2";
 
 export default function RecentWork() {
   return (

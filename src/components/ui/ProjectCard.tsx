@@ -7,6 +7,8 @@ import Stack from "./Stack";
 import Image from "next/image";
 
 import Button from "./Button";
+import ButtonA from "./ButtonA";
+import H2 from "./H2";
 
 export type ProjectCardProps = {
   title?: string;
@@ -23,30 +25,16 @@ export default function ProjectCard(props: ProjectCardProps) {
   return (
     <Card>
       <Stack vertical className=" items-stretch justify-evenly h-full">
-        <H3 className="font-mono uppercase tracking-wider">{title}</H3>
+        <H2 className="font-mono uppercase">{title}</H2>
         <P1>{description}</P1>
         <Stack>
-          <a
-            href={projectLink}
-            target="_blank"
-            rel="noreferrer"
-            className="hover-animation"
-          >
-            <Button tooltipContent="View project">
-              <RxExternalLink size={24} />
-            </Button>
-          </a>
+          <ButtonA href={projectLink} tooltipContent="View project">
+            <RxExternalLink size={24} />
+          </ButtonA>
           {repo && (
-            <a
-              href={repo}
-              target="_blank"
-              rel="noreferrer"
-              className="hover-animation"
-            >
-              <Button tooltipContent="View repo">
-                <AiFillGithub size={24} />
-              </Button>
-            </a>
+            <ButtonA href={repo} tooltipContent="View repo">
+              <AiFillGithub size={24} />
+            </ButtonA>
           )}
         </Stack>
         <Stack>
