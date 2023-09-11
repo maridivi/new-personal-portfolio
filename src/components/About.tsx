@@ -6,18 +6,21 @@ import Stack from "./ui/Stack";
 
 export default function About() {
   return (
-    <Stack className="items-center gap-8">
+    <Stack
+      vertical
+      className="lg:col-span-2 lg:gap-10 md:items-center overflow-hidden md:flex-row gap-4 px-4 "
+    >
       <Image
         src="/images/avatar.jpeg"
         height={75}
-        width={130}
-        className="rounded-full"
+        width={65}
+        className="rounded-full md:w-24 lg:w-48"
         alt="avatar"
       />
       <Stack vertical>
-        <H1>
+        <H1 className="lg:text-2xl">
           I'm <strong>Marianna</strong>, a self-taught front-end web developer
-          with a love for building nice apps & websites.
+          with a love for building apps & websites.
         </H1>
         <Stack>
           <ButtonA href="https://github.com/maridivi">

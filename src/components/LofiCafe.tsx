@@ -10,6 +10,7 @@ export default function LofiCafe() {
       alt="lofi-cafe"
       src="/images/lofi.png"
       projectLink="https://www.lofi.cafe/"
+      techList={["React"]}
     />
   );
 }

@@ -23,32 +23,35 @@ export type ProjectCardProps = {
 export default function ProjectCard(props: ProjectCardProps) {
   const { title, description, alt, src, repo, projectLink, techList } = props;
   return (
-    <Card>
+    <Card vertical align="center">
       <Stack vertical className=" items-stretch justify-evenly h-full">
         <H2 className="font-mono uppercase">{title}</H2>
         <P1>{description}</P1>
-        <Stack>
-          <ButtonA href={projectLink} tooltipContent="View project">
-            <RxExternalLink size={24} />
-          </ButtonA>
-          {repo && (
-            <ButtonA href={repo} tooltipContent="View repo">
-              <AiFillGithub size={24} />
+
+        <Stack className="items-center justify-between ">
+          <Stack>
+            <ButtonA href={projectLink} tooltipContent="View project">
+              <RxExternalLink size={24} />
             </ButtonA>
-          )}
-        </Stack>
-        <Stack>
-          {techList &&
-            techList.map((item, key) => {
-              return (
-                <span
-                  className="bg-neutral-300 text-neutral-600 py-1 px-2 rounded text-sm shrink-0 basis-22"
-                  key={key}
-                >
-                  {item}
-                </span>
-              );
-            })}
+            {repo && (
+              <ButtonA href={repo} tooltipContent="View repo">
+                <AiFillGithub size={24} />
+              </ButtonA>
+            )}
+          </Stack>
+          <Stack>
+            {techList &&
+              techList.map((item, key) => {
+                return (
+                  <span
+                    className=" bg-neutral-300 text-neutral-600 py-1 px-2 rounded text-sm shrink-0 basis-22"
+                    key={key}
+                  >
+                    {item}
+                  </span>
+                );
+              })}
+          </Stack>
         </Stack>
       </Stack>
 

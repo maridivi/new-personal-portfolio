@@ -10,7 +10,12 @@ export default function ButtonA({
   tooltipContent?: string;
 }) {
   return (
-    <a href={href} target="_blank" rel="noreferrer" className="hover-animation">
+    <a
+      href={href}
+      target="_blank"
+      rel="noreferrer"
+      className="hover-animation mt-1.5"
+    >
       <Button tooltipContent={tooltipContent}>{children}</Button>
     </a>
   );
