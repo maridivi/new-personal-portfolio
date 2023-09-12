@@ -64,7 +64,7 @@ export default function ProjectCard(props: ProjectCardProps) {
           "transition-transform group-hover:scale-105"
         )}
       >
-        <Image alt={alt} src={src} fill />
+        <Image alt={alt} src={src} fill priority />
       </div>
     </Card>
   );
