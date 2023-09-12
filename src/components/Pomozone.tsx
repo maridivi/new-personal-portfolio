@@ -8,7 +8,7 @@ export default function Pomozone() {
       title="pomozone"
       description="A timer based on the Pomodoro technique to boost focus and productivity. "
       alt="pomozone"
-      src="/images/timer.png"
+      src="/images/timer.jpg"
       techList={["React", "Tailwind"]}
     />
   );

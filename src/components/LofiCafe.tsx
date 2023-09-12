@@ -8,7 +8,7 @@ export default function LofiCafe() {
           in a beautiful online player. I
           made it together with Fabrizio."
       alt="lofi-cafe"
-      src="/images/lofi.png"
+      src="/images/lofi.jpg"
       projectLink="https://www.lofi.cafe/"
       techList={["React"]}
     />

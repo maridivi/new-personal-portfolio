@@ -6,9 +6,9 @@ export default function Readingful() {
       projectLink="https://www.readingful.app/"
       title="readingful"
       alt="readingful"
-      src="/images/readingful.png"
+      src="/images/readingful.jpg"
       description="An AI-powered website to get book suggestions based on user's preferences."
-      techList={["Nextjs", "OpenAI"]}
+      techList={["Typescript", "Nextjs", "OpenAI"]}
     />
   );
 }

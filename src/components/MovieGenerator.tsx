@@ -8,7 +8,7 @@ export default function MovieGenerator() {
       title="movie generator"
       description="A React app which generates a random movie based on filters. "
       alt="movie-generator"
-      src="/images/movie.png"
+      src="/images/movie.jpg"
       techList={["React", "Firebase"]}
     />
   );

@@ -1,12 +1,9 @@
 import { RxExternalLink } from "react-icons/rx";
 import { AiFillGithub } from "react-icons/ai";
 import Card from "./Card";
-import H3 from "./H3";
 import P1 from "./P1";
 import Stack from "./Stack";
 import Image from "next/image";
-
-import Button from "./Button";
 import ButtonA from "./ButtonA";
 import H2 from "./H2";
 
@@ -55,15 +52,8 @@ export default function ProjectCard(props: ProjectCardProps) {
         </Stack>
       </Stack>
 
-      <div className=" relative w-[200px] h-[200px] sm:w-[200px] sm:h-[200px] overflow-hidden shrink-0 shadow-xl rounded-lg ">
-        <Image
-          alt={alt}
-          src={src}
-          // width={250}
-          // height={50}
-          className="shrink-0 object-cover min-h-0  "
-          fill
-        />
+      <div className=" relative w-[400px] h-[270px] sm:w-[300px] sm:h-[200px] overflow-hidden shrink-0 shadow-xl rounded-lg ">
+        <Image alt={alt} src={src} fill />
       </div>
     </Card>
   );

@@ -9,7 +9,6 @@ import Grid from "@/components/ui/Grid";
 
 import Head from "./head";
 import Bio from "@/components/Bio";
-import CTA from "@/components/CTA";
 import Contact from "@/components/Contact";
 import RecentWork from "@/components/RecentWork";
 
@@ -31,7 +30,6 @@ export default function Home() {
           <Cozier />
           <Readingful />
 
-          <CTA />
           <Contact />
         </Grid>
         <Footer />

@@ -1,10 +1,4 @@
 export default function Footer() {
-  const getYear = () => {
-    const date = new Date();
-    const year = date.getFullYear();
-    return year;
-  };
-
   return (
     <div className="px-4 flex justify-center max-w-xl w-full mx-auto bottom-0 min-h-0 overflow-hidden">
       <h5 className="text-xs text-gray-500">
@@ -16,6 +10,15 @@ export default function Footer() {
         >
           {" "}
           Next.js
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://www.typescriptlang.org/"
+          target="_blank"
+          className="text-violet-500"
+        >
+          {" "}
+          Typescript
         </a>
         . Deployed on
         <a

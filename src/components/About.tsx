@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import ButtonA from "./ui/ButtonA";
 import H1 from "./ui/H1";
 import Stack from "./ui/Stack";
@@ -18,7 +18,7 @@ export default function About() {
         alt="avatar"
       />
       <Stack vertical>
-        <H1 className="lg:text-2xl">
+        <H1 className="lg:text-2xl ">
           I'm <strong>Marianna</strong>, a self-taught front-end web developer
           with a love for building apps & websites.
         </H1>
