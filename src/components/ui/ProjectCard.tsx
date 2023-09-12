@@ -7,9 +7,11 @@ import Image from "next/image";
 import ButtonA from "./ButtonA";
 import H2 from "./H2";
 
+import cn from "@/utils/cn";
+
 export type ProjectCardProps = {
   title?: string;
-  description?: string;
+  description?: string | React.ReactNode;
   alt: string;
   src: string;
   repo?: string;
@@ -20,7 +22,7 @@ export type ProjectCardProps = {
 export default function ProjectCard(props: ProjectCardProps) {
   const { title, description, alt, src, repo, projectLink, techList } = props;
   return (
-    <Card vertical align="center">
+    <Card vertical align="center" className="group">
       <Stack vertical className=" items-stretch justify-evenly h-full">
         <H2 className="font-mono uppercase">{title}</H2>
         <P1>{description}</P1>
@@ -52,7 +54,16 @@ export default function ProjectCard(props: ProjectCardProps) {
         </Stack>
       </Stack>
 
-      <div className=" relative w-[400px] h-[270px] sm:w-[300px] sm:h-[200px] overflow-hidden shrink-0 shadow-lg rounded-lg ">
+      <div
+        className={cn(
+          "relative w-[300px] h-[200px]",
+          "sm:w-[250px] sm:h-[170px]",
+          "md:w-[300px] md:h-[200px]",
+          "lg:w-[270px] lg:h-[185px]",
+          "overflow-hidden shrink-0 shadow-lg rounded-lg ",
+          "transition-transform group-hover:scale-105"
+        )}
+      >
         <Image alt={alt} src={src} fill />
       </div>
     </Card>
