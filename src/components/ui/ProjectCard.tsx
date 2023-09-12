@@ -52,7 +52,7 @@ export default function ProjectCard(props: ProjectCardProps) {
         </Stack>
       </Stack>
 
-      <div className=" relative w-[400px] h-[270px] sm:w-[300px] sm:h-[200px] overflow-hidden shrink-0 shadow-xl rounded-lg ">
+      <div className=" relative w-[400px] h-[270px] sm:w-[300px] sm:h-[200px] overflow-hidden shrink-0 shadow-lg rounded-lg ">
         <Image alt={alt} src={src} fill />
       </div>
     </Card>
