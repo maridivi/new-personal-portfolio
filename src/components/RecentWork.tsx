@@ -5,7 +5,7 @@ import Stack from "./ui/Stack";
 
 export default function RecentWork() {
   return (
-    <Stack className="pt-14 px-4 ">
+    <Stack className="sm:pt-14 px-4 ">
       <P1 className={cn(lora.className, "text-neutral-500 text-lg")}>
         Recently, I've been getting comfortable with <strong>Typescript</strong>{" "}
         and <strong>Next.js 13</strong>, especially when it comes to mastering
