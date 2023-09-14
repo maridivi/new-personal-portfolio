@@ -1,12 +1,11 @@
 import Image from "next/image";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import ButtonA from "./ui/ButtonA";
-import H1 from "./ui/H1";
 import Stack from "./ui/Stack";
 import Card from "./ui/Card";
 import P1 from "./ui/P1";
 import cn from "@/utils/cn";
-import { alice, lora } from "@/utils/fonts";
+import { lora } from "@/utils/fonts";
 
 export default function About() {
   return (
