@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 import Section from "@/components/ui/Section";
 import Stack from "@/components/ui/Stack";
-import { inter } from "@/utils/fonts";
+import { inter, nunito } from "@/utils/fonts";
 import Footer from "@/components/Footer";
 import cn from "@/utils/cn";
 
@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={cn(inter.className)}>
+      <body className={cn(nunito.className)}>
         <Stack vertical className="gap-16  h-full ">
           {/* <Navbar /> */}
           {children}

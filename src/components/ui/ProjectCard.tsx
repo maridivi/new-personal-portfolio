@@ -17,12 +17,32 @@ export type ProjectCardProps = {
   repo?: string;
   projectLink: string;
   techList?: string[];
+  className?: string;
+  imageStyle?: string;
 };
 
 export default function ProjectCard(props: ProjectCardProps) {
-  const { title, description, alt, src, repo, projectLink, techList } = props;
+  const {
+    title,
+    description,
+    alt,
+    src,
+    repo,
+    projectLink,
+    techList,
+    className,
+    imageStyle,
+  } = props;
   return (
-    <Card vertical align="center" className="group">
+    <Card
+      vertical
+      align="center"
+      className={cn(
+        "group col-span-2 sm:col-span-1 md:col-span-2",
+        className,
+        "min-[850px]:col-span-1"
+      )}
+    >
       <Stack vertical className=" items-stretch justify-evenly h-full">
         <H2 className="font-mono uppercase">{title}</H2>
         <P1>{description}</P1>
@@ -57,11 +77,13 @@ export default function ProjectCard(props: ProjectCardProps) {
       <div
         className={cn(
           "relative w-[300px] h-[200px]",
-          "sm:w-[250px] sm:h-[170px]",
+          "sm:w-[220px] sm:h-[150px]",
           "md:w-[300px] md:h-[200px]",
+          "min-[850px]:w-[210px] min-[850px]:h-[145px]",
           "lg:w-[270px] lg:h-[185px]",
           "overflow-hidden shrink-0 shadow-lg rounded-lg ",
-          "transition-transform group-hover:scale-105"
+          "transition-transform group-hover:scale-105",
+          imageStyle
         )}
       >
         <Image alt={alt} src={src} fill priority />
