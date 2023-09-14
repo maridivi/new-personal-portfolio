@@ -3,7 +3,7 @@ import ProjectCard from "./ui/ProjectCard";
 export default function Readingful() {
   return (
     <ProjectCard
-      className="bg-orange-50 hover:bg-orange-100"
+      className="bg-orange-50 hover:bg-orange-100 delay-500"
       projectLink="https://www.readingful.app/"
       title="readingful"
       alt="readingful"

@@ -18,7 +18,6 @@ export type ProjectCardProps = {
   projectLink: string;
   techList?: string[];
   className?: string;
-  imageStyle?: string;
 };
 
 export default function ProjectCard(props: ProjectCardProps) {
@@ -31,7 +30,6 @@ export default function ProjectCard(props: ProjectCardProps) {
     projectLink,
     techList,
     className,
-    imageStyle,
   } = props;
   return (
     <Card
@@ -40,12 +38,13 @@ export default function ProjectCard(props: ProjectCardProps) {
       className={cn(
         "group col-span-2 sm:col-span-1 md:col-span-2",
         className,
+
         "min-[850px]:col-span-1"
       )}
     >
-      <Stack vertical className=" items-stretch justify-evenly h-full">
+      <Stack vertical className="justify-stretch h-full">
         <H2 className="font-mono uppercase">{title}</H2>
-        <P1>{description}</P1>
+        <P1 className="text-md">{description}</P1>
 
         <Stack className="items-center justify-between ">
           <Stack>
@@ -76,17 +75,19 @@ export default function ProjectCard(props: ProjectCardProps) {
 
       <div
         className={cn(
-          "relative w-[300px] h-[200px]",
-          "sm:w-[220px] sm:h-[150px]",
-          "md:w-[300px] md:h-[200px]",
-          "min-[850px]:w-[210px] min-[850px]:h-[145px]",
-          "lg:w-[270px] lg:h-[185px]",
-          "overflow-hidden shrink-0 shadow-lg rounded-lg ",
-          "transition-transform group-hover:scale-105",
-          imageStyle
+          "relative w-full max-w-full min-w-0 overflow-hidden",
+          "overflow-hidden shrink-0 shadow-lg rounded-lg",
+          "transition-transform group-hover:scale-105"
         )}
       >
-        <Image alt={alt} src={src} fill priority />
+        <Image
+          alt={alt}
+          src={src}
+          width={300}
+          height={300}
+          className="w-full object-cover"
+          priority
+        />
       </div>
     </Card>
   );

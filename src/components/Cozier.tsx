@@ -3,7 +3,7 @@ import ProjectCard from "./ui/ProjectCard";
 export default function Cozier() {
   return (
     <ProjectCard
-      className="bg-red-50 hover:bg-red-100"
+      className="bg-red-50 hover:bg-red-100 delay-300"
       repo="https://github.com/maridivi/e-commerce"
       projectLink="https://cozier.vercel.app/"
       alt="cozier"

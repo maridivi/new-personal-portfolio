@@ -9,7 +9,7 @@ import { lora } from "@/utils/fonts";
 
 export default function About() {
   return (
-    <Card className="col-span-2">
+    <Card className="col-span-2 delay-100 ">
       <Stack vertical className="justify-evenly">
         <Stack
           vertical
@@ -23,7 +23,7 @@ export default function About() {
             alt="avatar"
           />
           <Stack vertical>
-            <P1 className={cn("text-lg ")}>
+            <P1>
               I'm{" "}
               <span className={cn("text-2xl font-black", lora.className)}>
                 Marianna
@@ -44,7 +44,7 @@ export default function About() {
           </Stack>
         </Stack>
         <Stack className="items-center  py-6">
-          <P1 className={cn("text-lg", "text-neutral-500")}>
+          <P1>
             After 5 years working as a dentist, I decided to pursue my interest
             in web development and began teaching myself to code. Through online
             courses and hands-on projects, I became proficient in{" "}

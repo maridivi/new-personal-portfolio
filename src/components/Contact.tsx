@@ -7,9 +7,9 @@ import cn from "@/utils/cn";
 
 export default function Contact() {
   return (
-    <Card className="col-span-2 ">
-      <Stack vertical className="justify-around min-[850px]:p-6 gap-8 ">
-        <P1 className={cn("text-neutral-500 ")}>
+    <Card className="col-span-2  delay-1000">
+      <Stack vertical className="justify-evenly  gap-8  ">
+        <P1>
           Recently, I've been getting comfortable with{" "}
           <strong>Typescript</strong> and <strong>Next.js 13</strong>,
           especially the <strong>App Router</strong>.<br></br> I've also been

@@ -15,8 +15,9 @@ export default function Card(props: CardProps) {
   return (
     <div
       className={cn(
-        "min-w-full rounded-[40px] overflow-hidden p-5 pb-6",
-        "bg-black/[0.04] hover:bg-black/[0.08] dark:bg-gray-750 dark:border dark:border-[rgba(255,255,255,0.08)] transition-colors duration-150",
+        "min-w-full rounded-[18px] overflow-hidden p-5 pb-6",
+        "bg-black/[0.04] hover:bg-black/[0.08] dark:bg-gray-750 dark:border dark:border-[rgba(255,255,255,0.08)]",
+        "transition-colors duration-150",
         className
       )}
     >
