@@ -19,7 +19,7 @@ export default function Home() {
         className={cn(
           "px-8 min-[550px]:px-24 sm:px-20 min-[700px]:px-28",
           "md:px-48 min-[850px]:px-16 lg:px-24 xl:px-32",
-          // "min-[1400px]:px-28",
+
           "min-h-screen flex flex-col pt-12 pb-6 gap-12"
         )}
       >
