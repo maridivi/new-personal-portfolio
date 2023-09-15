@@ -4,7 +4,7 @@ export default function Head() {
       <title>Marianna Di Vito</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta name="description" content="Front-end web developer." />
-      <meta property="og:url" content="https://lofi.cafe" />
+      <meta property="og:url" content="https://mariannadivito.com" />
       <meta property="og:type" content="website" />
 
       <meta property="og:image" content="/images/avatar.jpeg" />
@@ -13,10 +13,10 @@ export default function Head() {
       <meta property="og:image:height" content="630" />
       <meta property="og:image:alt" content="About Marianna" />
 
-      <meta name="twitter:title" content={"Marianna Di Vito"} />
+      <meta name="twitter:title" content="Marianna Di Vito" />
       <meta
         name="twitter:description"
-        content={"I'm a front-end web developer."}
+        content="I'm a front-end web developer."
       />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image" content="/images/avatar.jpeg" />
