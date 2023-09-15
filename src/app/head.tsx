@@ -7,10 +7,10 @@ export default function Head() {
       <meta property="og:url" content="https://lofi.cafe" />
       <meta property="og:type" content="website" />
 
-      <meta property="og:image" content="<generated>" />
+      <meta property="og:image" content="/images/avatar.jpeg" />
       <meta property="og:image:type" content="<generated>" />
-      <meta property="og:image:width" content="<generated>" />
-      <meta property="og:image:height" content="<generated>" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
       <meta property="og:image:alt" content="About Marianna" />
 
       <meta name="twitter:title" content={"Marianna Di Vito"} />
@@ -20,9 +20,9 @@ export default function Head() {
       />
       <meta name="twitter:card" content={"summary_large_image"} />
       <meta name="twitter:image" content="<generated>" />
-      <meta name="twitter:image:type" content="<generated>" />
-      <meta name="twitter:image:width" content="<generated>" />
-      <meta name="twitter:image:height" content="<generated>" />
+      <meta name="twitter:image:type" content="/images/avatar.jpeg" />
+      <meta name="twitter:image:width" content="1200" />
+      <meta name="twitter:image:height" content="630" />
       <meta property="twitter:image:alt" content="About Marianna" />
 
       <meta name="twitter:creator" content="Marianna Di Vito" />
