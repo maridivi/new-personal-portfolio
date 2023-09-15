@@ -11,13 +11,19 @@ export default function Head() {
       <meta property="og:image:type" content="<generated>" />
       <meta property="og:image:width" content="<generated>" />
       <meta property="og:image:height" content="<generated>" />
+      <meta property="og:image:alt" content="About Marianna" />
+
       <meta name="twitter:title" content={"Marianna Di Vito"} />
       <meta
         name="twitter:description"
         content={"I'm a front-end web developer."}
       />
-
       <meta name="twitter:card" content={"summary_large_image"} />
+      <meta name="twitter:image" content="<generated>" />
+      <meta name="twitter:image:type" content="<generated>" />
+      <meta name="twitter:image:width" content="<generated>" />
+      <meta name="twitter:image:height" content="<generated>" />
+      <meta property="twitter:image:alt" content="About Marianna" />
 
       <meta name="twitter:creator" content="Marianna Di Vito" />
       <link rel="icon" href="/favicon.ico" />
