@@ -18,8 +18,8 @@ export default function Head() {
         name="twitter:description"
         content={"I'm a front-end web developer."}
       />
-      <meta name="twitter:card" content={"summary_large_image"} />
-      <meta name="twitter:image" content="<generated>" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="/images/avatar.jpeg" />
       <meta name="twitter:image:type" content="/images/avatar.jpeg" />
       <meta name="twitter:image:width" content="1200" />
       <meta name="twitter:image:height" content="630" />
