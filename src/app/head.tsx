@@ -7,7 +7,7 @@ export default function Head() {
       <meta property="og:url" content="https://mariannadivito.com" />
       <meta property="og:type" content="website" />
 
-      <meta property="og:image" content="/images/og_image.png" />
+      <meta property="og:image" content="/images/og-image.png" />
       <meta property="og:image:type" content="<generated>" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
@@ -19,8 +19,8 @@ export default function Head() {
         content="I'm a front-end web developer."
       />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="/images/og_image.png" />
-      <meta name="twitter:image:type" content="/images/og_image.png" />
+      <meta name="twitter:image" content="/images/og-image.png" />
+      <meta name="twitter:image:type" content="/images/og-image.png" />
       <meta name="twitter:image:width" content="1200" />
       <meta name="twitter:image:height" content="630" />
       <meta property="twitter:image:alt" content="About Marianna" />
