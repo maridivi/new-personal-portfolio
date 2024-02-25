@@ -22,5 +22,11 @@ export async function GET(req: NextRequest) {
   );
   const data = await res.json();
 
-  return NextResponse.json({ data });
+  const response = NextResponse.json({ data });
+
+  // Set CORS headers
+  response.headers.set("Access-Control-Allow-Origin", "*"); // Allow all origins
+  response.headers.set("Access-Control-Allow-Methods", "GET, HEAD, OPTIONS"); // Specify allowed request methods
+
+  return response;
 }
