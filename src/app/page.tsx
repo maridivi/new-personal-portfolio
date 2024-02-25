@@ -29,7 +29,7 @@ export default function Home() {
           <Pomozone />
           <Cozier />
           {/* <Readingful /> */}
-          <MovieGenerator />
+          {/* <MovieGenerator /> */}
           <Contact />
         </Grid>
         <Footer />
