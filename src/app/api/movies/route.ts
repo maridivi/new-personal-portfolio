@@ -1,4 +1,4 @@
-import { NextRequest } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(req: NextRequest) {
   const { url } = req;
@@ -8,7 +8,7 @@ export async function GET(req: NextRequest) {
   try {
     params = new URL(url).search;
   } catch (err) {
-    return Response.error();
+    return NextResponse.error();
   }
 
   const res = await fetch(
@@ -22,5 +22,5 @@ export async function GET(req: NextRequest) {
   );
   const data = await res.json();
 
-  return Response.json({ data });
+  return NextResponse.json({ data });
 }
