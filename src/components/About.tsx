@@ -9,7 +9,7 @@ import { lora } from "@/utils/fonts";
 
 export default function About() {
   return (
-    <Card className="col-span-2 delay-100 ">
+    <Card className="col-span-2 delay-50 ">
       <Stack vertical className="justify-evenly">
         <Stack
           vertical

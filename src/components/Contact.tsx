@@ -7,7 +7,7 @@ import cn from "@/utils/cn";
 
 export default function Contact() {
   return (
-    <Card className="col-span-2  delay-1000">
+    <Card className="col-span-2  delay-300">
       <Stack vertical className="justify-evenly  gap-8  ">
         <P1>
           Recently, I've been getting comfortable with{" "}

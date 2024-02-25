@@ -3,7 +3,7 @@ import ProjectCard from "./ui/ProjectCard";
 export default function MovieGenerator() {
   return (
     <ProjectCard
-      className="bg-blue-50 hover:bg-blue-100 delay-700"
+      className="bg-blue-50 hover:bg-blue-100 delay-300"
       projectLink="https://watchamovie.vercel.app/"
       repo="https://github.com/maridivi/movie-generator"
       title="movie generator"

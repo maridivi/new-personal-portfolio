@@ -18,6 +18,7 @@ export default function Card(props: CardProps) {
         "min-w-full rounded-[18px] overflow-hidden p-5 pb-6",
         "bg-black/[0.04] hover:bg-black/[0.08] dark:bg-gray-750 dark:border dark:border-[rgba(255,255,255,0.08)]",
         "transition-colors duration-150",
+        "animate-in fade-in-0 zoom-in-[0.95] duration-150 fill-mode-both",
         className
       )}
     >
