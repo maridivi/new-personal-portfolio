@@ -28,7 +28,7 @@ export default function Home() {
           <LofiCafe />
           <Pomozone />
           <Cozier />
-          {/* <Readingful /> */}
+          <Readingful />
           {/* <MovieGenerator /> */}
           <Contact />
         </Grid>
