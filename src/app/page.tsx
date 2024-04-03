@@ -10,6 +10,8 @@ import Grid from "@/components/ui/Grid";
 import Head from "./head";
 import Contact from "@/components/Contact";
 import cn from "@/utils/cn";
+import BazaarBytes from "@/components/BazaarBytes";
+import Hangman from "@/components/Hangman";
 
 export default function Home() {
   return (
@@ -26,10 +28,12 @@ export default function Home() {
         <Grid className="gap-6 ">
           <About />
           <LofiCafe />
+          <BazaarBytes />
           <Pomozone />
           <Cozier />
-          <Readingful />
-          {/* <MovieGenerator /> */}
+          {/* <Readingful /> */}
+          <Hangman />
+
           <Contact />
         </Grid>
         <Footer />
