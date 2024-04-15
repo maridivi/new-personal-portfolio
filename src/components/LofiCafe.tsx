@@ -4,7 +4,8 @@ import ProjectCard from "./ui/ProjectCard";
 export default function LofiCafe() {
   return (
     <ProjectCard
-      className="delay-100 bg-violet-50 hover:bg-violet-100 sm:col-span-2 "
+      className="delay-200 bg-violet-50 hover:bg-violet-100 min-[850px]:col-span-2"
+      imgClassName="min-[850px]:w-1/2"
       title="lofi.cafe"
       description={
         <>

@@ -18,6 +18,7 @@ export type ProjectCardProps = {
   projectLink: string;
   techList?: string[];
   className?: string;
+  imgClassName?: string;
 };
 
 export default function ProjectCard(props: ProjectCardProps) {
@@ -30,16 +31,16 @@ export default function ProjectCard(props: ProjectCardProps) {
     projectLink,
     techList,
     className,
+    imgClassName,
   } = props;
   return (
     <Card
       vertical
       align="center"
       className={cn(
-        "group col-span-2 sm:col-span-1 md:col-span-2",
-        className,
-
-        "min-[850px]:col-span-1"
+        "group col-span-2 sm:col-span-1",
+        "min-[850px]:col-span-1",
+        className
       )}
     >
       <Stack vertical className="justify-stretch h-full">
@@ -77,7 +78,8 @@ export default function ProjectCard(props: ProjectCardProps) {
         className={cn(
           "relative w-full max-w-full min-w-0 overflow-hidden",
           "overflow-hidden shrink-0 shadow-lg rounded-lg",
-          "transition-transform group-hover:scale-105"
+          "transition-transform group-hover:scale-105",
+          imgClassName
         )}
       >
         <Image

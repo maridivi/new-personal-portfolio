@@ -3,7 +3,7 @@ import ProjectCard from "./ui/ProjectCard";
 export default function Hangman() {
   return (
     <ProjectCard
-      className="bg-yellow-50 hover:bg-yellow-100 delay-200"
+      className="bg-yellow-50 hover:bg-yellow-100 delay-150"
       repo="https://github.com/maridivi/hangman-game"
       projectLink="https://maridivi.github.io/hangman-game/"
       alt="hangman"

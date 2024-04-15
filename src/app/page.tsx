@@ -11,6 +11,8 @@ import Contact from "@/components/Contact";
 import cn from "@/utils/cn";
 import BazaarBytes from "@/components/BazaarBytes";
 import Hangman from "@/components/Hangman";
+import MyFaves from "@/components/MyFaves";
+import Latest from "@/components/Latest";
 
 export default function Home() {
   return (
@@ -26,13 +28,20 @@ export default function Home() {
       >
         <Grid className="gap-6 ">
           <About />
-          <LofiCafe />
           <BazaarBytes />
-          <Pomozone />
-          <Cozier />
-          {/* <Readingful /> */}
+
           <Hangman />
 
+          <LofiCafe />
+          <MyFaves />
+
+          <Cozier />
+
+          {/* <Readingful /> */}
+
+          <Pomozone />
+
+          <Latest />
           <Contact />
         </Grid>
         <Footer />
