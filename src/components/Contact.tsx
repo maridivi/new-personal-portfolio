@@ -6,7 +6,7 @@ import Stack from "./ui/Stack";
 
 export default function Contact() {
   return (
-    <Card className="col-span-1  delay-300">
+    <Card className="col-span-2 delay-300 min-[850px]:col-span-1">
       <Stack vertical className="items-center gap-8">
         <P1>
           If you've got a project in mind or just want to chat, feel free to
