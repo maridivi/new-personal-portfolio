@@ -31,7 +31,7 @@ export default function About() {
               , a self-taught front-end web developer with a love for building
               apps & websites.
             </P1>
-            <Stack>
+            <Stack className="gap-3">
               <ButtonA href="https://github.com/maridivi">
                 <AiFillGithub size={24} />
                 Github

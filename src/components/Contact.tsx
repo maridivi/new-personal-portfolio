@@ -12,7 +12,7 @@ export default function Contact() {
           If you've got a project in mind or just want to chat, feel free to
           reach out!
         </P1>
-        <Stack>
+        <Stack className="gap-3">
           <ButtonA href="https://twitter.com/maridivi89">
             <AiOutlineTwitter size={24} />
             Twitter

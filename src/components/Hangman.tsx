@@ -10,7 +10,7 @@ export default function Hangman() {
       src="/images/hangman.png"
       title="hangman"
       description="A classic word-guessing game that challenges players to guess a hidden word by suggesting letters within a certain number of attempts."
-      techList={["HTML", "CSS", "Javascript"]}
+      techList={["Javascript"]}
     />
   );
 }

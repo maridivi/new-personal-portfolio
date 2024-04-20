@@ -15,7 +15,7 @@ export default function Stack({
   className,
 }: StackProps) {
   return (
-    <div className={cn("flex gap-3", vertical && "flex-col", className)}>
+    <div className={cn("flex", vertical && "flex-col", className)}>
       {children}
     </div>
   );

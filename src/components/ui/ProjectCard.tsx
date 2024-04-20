@@ -47,8 +47,8 @@ export default function ProjectCard(props: ProjectCardProps) {
         <H2 className="font-mono uppercase">{title}</H2>
         <P1 className="text-md">{description}</P1>
 
-        <Stack className="items-center justify-between ">
-          <Stack>
+        <Stack className="items-center justify-between gap-1">
+          <Stack className="gap-1">
             <ButtonA href={projectLink} tooltipContent="View project">
               <RxExternalLink size={24} />
             </ButtonA>
@@ -58,7 +58,7 @@ export default function ProjectCard(props: ProjectCardProps) {
               </ButtonA>
             )}
           </Stack>
-          <Stack>
+          <Stack className="gap-1">
             {techList &&
               techList.map((item, key) => {
                 return (
