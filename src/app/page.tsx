@@ -21,19 +21,18 @@ export default function Home() {
       <main
         className={cn(
           "px-8 min-[550px]:px-24 sm:px-20 min-[700px]:px-6",
-          "md:px-20 min-[850px]:px-16 lg:px-24 xl:px-32",
-
+          "md:px-20 min-[850px]:px-16 lg:px-24 xl:px-56",
           "min-h-screen flex flex-col pt-12 pb-6 gap-12"
         )}
       >
         <Grid className="gap-6 ">
           <About />
-          <BazaarBytes />
+          {/* <BazaarBytes /> */}
 
           <Hangman />
 
           <LofiCafe />
-          <MyFaves />
+          {/* <MyFaves /> */}
 
           <Cozier />
 
@@ -42,7 +41,7 @@ export default function Home() {
           <Pomozone />
 
           <Latest />
-          <Contact />
+          {/* <Contact /> */}
         </Grid>
         <Footer />
       </main>
