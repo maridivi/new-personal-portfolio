@@ -6,7 +6,6 @@ import Pomozone from "@/components/Pomozone";
 import Readingful from "@/components/Readingful";
 import Grid from "@/components/ui/Grid";
 
-import Head from "./head";
 import Contact from "@/components/Contact";
 import cn from "@/utils/cn";
 import BazaarBytes from "@/components/BazaarBytes";
@@ -16,35 +15,32 @@ import Latest from "@/components/Latest";
 
 export default function Home() {
   return (
-    <>
-      <Head />
-      <main
-        className={cn(
-          "px-8 min-[550px]:px-24 sm:px-20 min-[700px]:px-6",
-          "md:px-20 min-[850px]:px-16 lg:px-24 xl:px-56",
-          "min-h-screen flex flex-col pt-12 pb-6 gap-12"
-        )}
-      >
-        <Grid className="gap-6 ">
-          <About />
-          {/* <BazaarBytes /> */}
+    <main
+      className={cn(
+        "px-8 min-[550px]:px-24 sm:px-20 min-[700px]:px-6",
+        "md:px-20 min-[850px]:px-16 lg:px-24 xl:px-56",
+        "min-h-screen flex flex-col pt-12 pb-6 gap-12"
+      )}
+    >
+      <Grid className="gap-6 ">
+        <About />
+        {/* <BazaarBytes /> */}
 
-          <Hangman />
+        <Hangman />
 
-          <LofiCafe />
-          {/* <MyFaves /> */}
+        <LofiCafe />
+        {/* <MyFaves /> */}
 
-          <Cozier />
+        <Cozier />
 
-          {/* <Readingful /> */}
+        {/* <Readingful /> */}
 
-          <Pomozone />
+        <Pomozone />
 
-          <Latest />
-          {/* <Contact /> */}
-        </Grid>
-        <Footer />
-      </main>
-    </>
+        <Latest />
+        {/* <Contact /> */}
+      </Grid>
+      <Footer />
+    </main>
   );
 }
